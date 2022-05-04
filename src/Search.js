@@ -24,9 +24,9 @@ export default function Search() {
 
   return (
     <div>
-      <form className="DicSearch" onSubmit={Submit}>
-        <input type="search" onChange={ShowWord} />
-        <input type="submit" />
+      <form onSubmit={Submit}>
+        <input type="search" onChange={ShowWord} className="DicSearch" />
+        <input type="submit" value="🔍" className="mag" />
       </form>
       <Result result={results} />
     </div>

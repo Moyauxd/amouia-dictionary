@@ -5,7 +5,7 @@ import Phonetics from "./Phonetics";
 export default function Result(props) {
   if (props.result) {
     return (
-      <div>
+      <div className="results">
         <h2>{props.result.word}</h2>
         {props.result.phonetics.map(function (phonetics, index) {
           return (
