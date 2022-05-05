@@ -7,7 +7,7 @@
   text-transform: uppercase;
 }
 
-a {
+.aa {
   color: #ff5722;
   border: 1px solid #bcaaa4;
   text-decoration: none;
@@ -17,7 +17,7 @@ a {
   font-weight: 400px;
   transition: 150ms all ease-in-out;
 }
-a:hover {
+.aa:hover {
   background-color: #ff5722;
   color: white;
 }
@@ -39,4 +39,10 @@ a:hover {
   padding: 5px 10px;
   font-size: 11px;
   margin: 5px;
+}
+.defintion {
+  font-weight: 500px;
+}
+.pics img {
+  border-radius: 4px;
 }
