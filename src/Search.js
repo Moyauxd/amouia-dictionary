@@ -23,11 +23,13 @@ export default function Search() {
   }
 
   return (
-    <div>
-      <form onSubmit={Submit}>
-        <input type="search" onChange={ShowWord} className="DicSearch" />
-        <input type="submit" value="🔍" className="mag" />
-      </form>
+    <div className="Search">
+      <section>
+        <form onSubmit={Submit}>
+          <input type="search" onChange={ShowWord} className="DicSearch" />
+          <small>suggested words:rose, forest, beach..etc</small>
+        </form>
+      </section>
       <Result result={results} />
     </div>
   );

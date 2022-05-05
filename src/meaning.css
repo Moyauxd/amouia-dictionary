@@ -1,3 +1,42 @@
 .results {
   text-align: center;
 }
+.word {
+  font-size: 25px;
+  font-weight: 500px;
+  text-transform: uppercase;
+}
+
+a {
+  color: #ff5722;
+  border: 1px solid #bcaaa4;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 400px;
+  transition: 150ms all ease-in-out;
+}
+a:hover {
+  background-color: #ff5722;
+  color: white;
+}
+.Phonetic {
+  margin-bottom: 20px;
+}
+.text {
+  opacity: 0.7;
+}
+.speech {
+  font-size: 24px;
+  line-height: 1.5;
+}
+.example {
+  font-size: 13px;
+}
+.Synonyms li {
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 11px;
+  margin: 5px;
+}

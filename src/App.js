@@ -4,7 +4,7 @@ import Search from "./Search.js";
 function App() {
   return (
     <div>
-      <div className="App">Amouia Dictionary</div>
+      <h1 className="App">Amouia Dictionary</h1>
       <Search />
     </div>
   );

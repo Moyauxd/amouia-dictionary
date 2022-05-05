@@ -5,15 +5,16 @@ import "./meaning.css";
 
 export default function Meaning(props) {
   return (
-    <div className="meaning">
-      <h3>{props.meaning.partOfSpeech}</h3>
+    <div>
+      <h3 className="speech">{props.meaning.partOfSpeech}</h3>
       {props.meaning.definitions.map(function (definition, index) {
         return (
           <div key={index}>
-            <p>Definition:{definition.definition}</p>
-            <br />
-            <Example example={definition.example} />
-            <br />
+            <div className="Definition">Definition:{definition.definition}</div>
+            <div className="example">
+              {" "}
+              <Example example={definition.example} />
+            </div>
             <Synonyms synonym={definition.synonyms} />
           </div>
         );
