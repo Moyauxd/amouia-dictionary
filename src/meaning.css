@@ -3,7 +3,7 @@
 }
 .word {
   font-size: 25px !important;
-  font-weight: 500px !important;
+  font-weight: 800px !important;
   text-transform: uppercase !important;
 }
 
@@ -36,12 +36,15 @@
 }
 .Synonyms li {
   display: inline-block;
-  padding: 5px 10px;
-  font-size: 11px;
+  padding: 2px 5px;
+  font-size: 13px;
   margin: 5px;
+  border: 1px solid rgba(255, 87, 37, 0.7) !important;
+  border-radius: 10px;
 }
 .Defintion {
   font-weight: bold !important;
+  text-align: justify;
 }
 img {
   border-radius: 6px 6px !important;
@@ -51,9 +54,9 @@ img {
 section {
   background-color: white !important;
   width: 800px !important;
-  border: 1px solid #ff5722 0.3 !important;
+  border: 1px solid rgba(255, 87, 34, 0.3) !important;
   border-radius: 4px !important;
   margin: 20px auto !important;
-  box-shadow: 1px 1px 1px #ff5722 0.7;
+  box-shadow: 1px 1px 1px rgba(255, 87, 37, 0.7) !important;
   padding-bottom: 10px !important;
 }

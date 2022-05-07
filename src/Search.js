@@ -49,8 +49,6 @@ export default function Search() {
             className="DicSearch"
           />
         </form>
-
-        <hr />
       </div>
       <Result result={results} />
       <Photos photos={photos} />
