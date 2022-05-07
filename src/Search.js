@@ -33,18 +33,25 @@ export default function Search() {
   }
 
   return (
-    <div className="Search">
-      <section>
+    <div>
+      <div className="Search">
         <form onSubmit={Submit}>
+          <h1>
+            Amouia
+            <img src="./dictionary.png" width="75px" alt="logo" />
+            Dictionary
+          </h1>
+
           <input
             type="search"
             placeholder="search for  a word"
             onChange={ShowWord}
             className="DicSearch"
           />
-          <small>suggested words:rose, forest, beach..etc</small>
         </form>
-      </section>
+
+        <hr />
+      </div>
       <Result result={results} />
       <Photos photos={photos} />
     </div>

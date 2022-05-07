@@ -4,29 +4,24 @@ import "./meaning.css";
 export default function Photos(props) {
   if (props.photos) {
     return (
-      <div className="row">
-        <section>
+      <section className="Photos">
+        <div className="row">
           {props.photos.map(function (photo, index) {
             return (
               <div className="col-4" key={index}>
-                <a
-                  className="pics"
-                  href={photo.src.original}
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <a href={photo.src.original} target="_blank" rel="noreferrer">
+                  {" "}
                   <img
                     src={photo.src.landscape}
                     className="img-fluid"
-                    alt=""
-                    width="150px"
+                    alt="Listen"
                   />
                 </a>
               </div>
             );
           })}
-        </section>
-      </div>
+        </div>
+      </section>
     );
   } else return null;
 }

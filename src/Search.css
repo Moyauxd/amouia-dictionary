@@ -1,20 +1,20 @@
-.Search section {
-  background-color: white;
-  padding: 20px;
+.Search {
+  background-color: #ff5722;
   border: 1px solid #ff5722 0.3;
   border-radius: 4px;
-  margin: 20px auto;
+  margin: 0 auto Important!;
   box-shadow: 1px 1px 1px #ff5722 0.7;
-  width: 700px;
+  width: 100%;
 }
 input {
   border: 1px solid hsl(14, 100%, 57%) 0.5;
   display: block;
-  border-radius: 8px;
+  border-radius: 4px;
   padding: 6px 10px;
   margin: 20px auto;
-  width: 75%;
-  box-shadow: 1px 1px 1px rgba(red, green, blue, 0.5);
+  width: 50%;
+  box-shadow: 1px 1px 1px rgba(255, 165, 0 0.5);
+  line-height: 4px;
 }
 small {
   font-size: 10px;

@@ -2,9 +2,9 @@
   text-align: center;
 }
 .word {
-  font-size: 25px;
-  font-weight: 500px;
-  text-transform: uppercase;
+  font-size: 25px !important;
+  font-weight: 500px !important;
+  text-transform: uppercase !important;
 }
 
 .aa {
@@ -32,7 +32,7 @@
   line-height: 1.5;
 }
 .example {
-  font-size: 13px;
+  font-size: 13px !important;
 }
 .Synonyms li {
   display: inline-block;
@@ -40,9 +40,20 @@
   font-size: 11px;
   margin: 5px;
 }
-.defintion {
-  font-weight: 500px;
+.Defintion {
+  font-weight: bold !important;
 }
-.pics img {
-  border-radius: 4px;
+img {
+  border-radius: 6px 6px !important;
+  margin: 7px 2px;
+  padding: 3px 10px;
+}
+section {
+  background-color: white !important;
+  width: 800px !important;
+  border: 1px solid #ff5722 0.3 !important;
+  border-radius: 4px !important;
+  margin: 20px auto !important;
+  box-shadow: 1px 1px 1px #ff5722 0.7;
+  padding-bottom: 10px !important;
 }
