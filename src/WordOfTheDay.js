@@ -11,21 +11,21 @@ export default function WordOfTheDays() {
     setDay(response.data.word);
   }
   let wordsapi = "b78ctrehl58hzmq08pa64z3j5ozyxyb2kehbvfmbxfj23bcb5";
-  let wordsurl = `https://api.wordnik.com:80/v4/words.json/wordOfTheDay?api_key=${wordsapi}`;
+  let wordsurl = `http://api.wordnik.com:80/v4/words.json/wordOfTheDay?api_key=${wordsapi}`;
   axios.get(wordsurl).then(ShowWordsoftheDay);
   function ShowDef(response) {
     console.log(response.data);
     SetDef(response.data.definitions[0].text);
   }
   let wordsapik = "b78ctrehl58hzmq08pa64z3j5ozyxyb2kehbvfmbxfj23bcb5";
-  let wordsurls = `https://api.wordnik.com:80/v4/words.json/wordOfTheDay?api_key=${wordsapik}`;
+  let wordsurls = `http://api.wordnik.com:80/v4/words.json/wordOfTheDay?api_key=${wordsapik}`;
   axios.get(wordsurls).then(ShowDef);
   function ShowSpeech(response) {
     console.log(response.data);
     SetSpeech(response.data.definitions[0].partOfSpeech);
   }
   let wordsapikey = "b78ctrehl58hzmq08pa64z3j5ozyxyb2kehbvfmbxfj23bcb5";
-  let wordsurlsx = `https://api.wordnik.com:80/v4/words.json/wordOfTheDay?api_key=${wordsapikey}`;
+  let wordsurlsx = `http://api.wordnik.com:80/v4/words.json/wordOfTheDay?api_key=${wordsapikey}`;
   axios.get(wordsurlsx).then(ShowSpeech);
 
   return (
