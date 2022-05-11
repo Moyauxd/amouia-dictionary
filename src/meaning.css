@@ -60,3 +60,28 @@ section {
   box-shadow: 1px 1px 1px rgba(255, 87, 37, 0.7) !important;
   padding-bottom: 10px !important;
 }
+.WordsofD {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.Title {
+  font-size: 45px;
+}
+.dayy {
+  font-size: 30px;
+  font-weight: bold;
+}
+.speech {
+  font-size: 15px;
+}
+.def {
+  font-size: 20px;
+}
+.WordD {
+  width: 500px;
+  border: 3px solid rgba(255, 87, 34, 0.3) !important;
+  border-radius: 4px !important;
+  margin: 20px auto !important;
+  box-shadow: 1px 1px 1px rgba(255, 87, 37, 0.7) !important;
+  padding-bottom: 10px !important;
+}

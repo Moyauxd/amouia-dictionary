@@ -2,6 +2,7 @@ import React from "react";
 import Meaning from "./Meaning";
 import Phonetics from "./Phonetics";
 import "./meaning.css";
+import WordOfTheDay from "./WordOfTheDay";
 
 export default function Result(props) {
   if (props.result) {

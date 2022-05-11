@@ -3,6 +3,8 @@ import axios from "axios";
 import "./Search.css";
 import Result from "./Result";
 import Photos from "./Photos";
+import WordOfTheDay from "./WordOfTheDay";
+import { useBootstrapBreakpoints } from "react-bootstrap/esm/ThemeProvider";
 
 export default function Search() {
   let [word, SetWord] = useState("");
@@ -19,6 +21,7 @@ export default function Search() {
     let url = `https://api.dictionaryapi.dev/api/v2/entries/en/${word}`;
     axios.get(url).then(handleResponse);
   }
+
   function HandlePexResponse(response) {
     setPhotos(response.data.photos);
   }
@@ -36,10 +39,8 @@ export default function Search() {
     <div>
       <div className="Search">
         <form onSubmit={Submit}>
-          <h1>
-            Amouia
-            <img src="./dictionary.png" width="75px" alt="logo" />
-            Dictionary
+          <h1 className="logo">
+            <img src="./amouia.png" alt="logo" />
           </h1>
 
           <input

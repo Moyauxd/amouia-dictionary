@@ -21,6 +21,8 @@ small {
   font-size: 10px;
   text-align: center;
 }
-h1 {
-  color: white;
+h1 img {
+  width: 250px;
+  margin: -55px 30px;
+  padding-left: 10px;
 }
