@@ -3,8 +3,6 @@ import axios from "axios";
 import "./Search.css";
 import Result from "./Result";
 import Photos from "./Photos";
-import WordOfTheDay from "./WordOfTheDay";
-import { useBootstrapBreakpoints } from "react-bootstrap/esm/ThemeProvider";
 
 export default function Search() {
   let [word, SetWord] = useState("");
