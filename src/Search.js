@@ -24,10 +24,10 @@ export default function Search() {
     setPhotos(response.data.photos);
   }
 
-  let picApikey = "563492ad6f917000010000019c0478e412454f01ba09b6b4efc93447";
-  let pexurl = `https://api.pexels.com/v1/search?query=${word}&per_page=6`;
-  let headers = { Authorization: `Bearer${picApikey}` };
-  axios.get(pexurl, { headers: headers }).then(HandlePexResponse);
+  let pexelsApiKey = "563492ad6f917000010000019c0478e412454f01ba09b6b4efc93447";
+  let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${word}&per_page=3`;
+  let headers = { Authorization: `Bearer ${pexelsApiKey}` };
+  axios.get(pexelsApiUrl, { headers: headers }).then(HandlePexResponse);
 
   function ShowWord(event) {
     SetWord(event.target.value);
